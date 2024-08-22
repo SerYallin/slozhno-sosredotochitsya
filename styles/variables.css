@@ -1,3 +1,16 @@
+:root {
+  --text-color: #353430;
+  --background-color: #FFF1F7;
+  --accent-color: #FF8DCB;
+  --header-elements-color: #353430;
+  --cover-text-color: #FFC2E6;
+  --intro-text-color: #353430;
+  --menu-hover-color: rgba(50, 49, 45, 0.4);
+  --header-background-image: url("../images/cover-image.png");
+  --section-title-color: #353430;
+  --content-title-color: #353430;
+}
+
 /*
   Переменные для вашего проекта
   и их переопределение под различные устройства

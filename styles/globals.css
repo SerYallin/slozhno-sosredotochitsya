@@ -22,6 +22,10 @@ p {
   margin: 0;
 }
 
+h2 {
+  font-size: 1em;
+}
+
 ul {
   margin: 0;
   padding: 0;
@@ -31,6 +35,10 @@ ul {
 picture {
   margin: 0;
   padding: 0;
+}
+
+img {
+  width: 100%;
 }
 
 button,
