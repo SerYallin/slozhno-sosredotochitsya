@@ -15,3 +15,32 @@
   Переменные для вашего проекта
   и их переопределение под различные устройства
 */
+@media (prefers-color-scheme: light) {
+  .page.theme_auto {
+    --header-elements-color: #353430;
+    --cover-text-color: #FFC2E6;
+    --text-color: #353430;
+    --background-color: #fff1f7;
+    --intro-text-color: #353430;
+    --menu-hover-color: rgba(50, 49, 45, 0.4);
+    --accent-color: #FF8DCB;
+    --header-background-image: url("../images/cover-image-light.png");
+    --section-title-color: #353430;
+    --content-title-color: #353430;
+  }
+}
+@media (prefers-color-scheme: dark) {
+  .page.theme_auto {
+    --accent-color: #FF0070;
+    --header-elements-color: #FF0070;
+    --cover-text-color: #DB00FF;
+    --text-color: #F1B2CE;
+    --background-color: #000028;
+    --accent-text-color: #000028;
+    --menu-hover-color: rgba(255, 0, 112, 0.4);
+    --header-background-image: url("../images/cover-image-dark.png");
+    --section-title-color: #FF0070;
+    --content-title-color: #000028;
+  }
+}
+
