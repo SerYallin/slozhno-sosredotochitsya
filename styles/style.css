@@ -169,6 +169,7 @@ a:focus-visible {
 .section__title {
   width: 100%;
   margin-block-end: 20px;
+  color: var(--section-title-color);
 }
 
 .content__title,
@@ -272,7 +273,6 @@ a:focus-visible {
   .section__title {
     flex-shrink: 0;
     max-width: 236px;
-    color: var(--section-title-color);
   }
 
   .section__theme-columned .section__title {
