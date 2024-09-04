@@ -19,6 +19,7 @@
   --header-background-image: url("../images/cover-image-dark.png");
   --section-title-color: #FF0070;
   --content-title-color: #000028;
+  --decorated-icon-display: block;
 }
 
 /*
@@ -37,5 +38,6 @@
     --header-background-image: url("../images/cover-image-dark.png");
     --section-title-color: #FF0070;
     --content-title-color: #000028;
+    --decorated-icon-display: block;
   }
 }
